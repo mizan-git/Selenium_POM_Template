@@ -4,5 +4,4 @@
 2. Modify Browser, Environment, url and user credential from "Configration.properties"
 3. Update maven repository.
 
- Contact: wediu32@gmail.com
 
