@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Mizan_SQA_Planet">
+	<listeners>
+		<listener class-name="utility.Listener" />
+	</listeners>
+	<test name="LeaveModule">
+		<classes>			
+			<class name="testCases.Leave_TestCase" />			
+		</classes>
+	</test> 
+</suite> <!-- "Mizan_SQA_Planet" -->
+
