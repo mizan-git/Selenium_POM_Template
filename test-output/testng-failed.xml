@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Mizan_SQA_Planet]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="utility.Listener"/>
+  </listeners>
+  <test thread-count="5" name="LeaveModule(failed)">
+    <classes>
+      <class name="testCases.Leave_TestCase">
+        <methods>
+          <include name="LoginOrangeHRM"/>
+          <include name="CloseBrowser"/>
+          <include name="OpenLeaveAndViewApplySubmenu"/>
+        </methods>
+      </class> <!-- testCases.Leave_TestCase -->
+    </classes>
+  </test> <!-- LeaveModule(failed) -->
+</suite> <!-- Failed suite [Mizan_SQA_Planet] -->
